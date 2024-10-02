@@ -39,7 +39,7 @@ const Hero = () => {
         <div className="w-[200px] md:w-[250px] rounded-lg">
           <img
             className ="rounded-lg"
-            src="src/images/aman.jpg"
+            src="/portfolio/src/images/aman.jpg"
             alt="Aman profile pic"
           />
         </div>
