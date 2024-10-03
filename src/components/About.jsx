@@ -19,7 +19,7 @@ const About = () => {
         {/* <!-- about text content --> */}
         <div className="col-span-12 md:col-span-7 flex flex-col">
           <h3 className="text-lg uppercase font-extrabold text-blue-600 mb-1">About Me</h3>
-          <h2 className="text-2xl font-bold mb-5">A dedicated Full-Stack Developer from Punjab, India</h2>
+          <h2 className="text-2xl font-bold mb-5">A dedicated Full-Stack Software Developer from Punjab, India</h2>
           <p className="text-neutral-600 leading-relaxed w-full">I enjoy solving problems and building full-stack web applications. With expertise in HTML, CSS, JavaScript, TypeScript, React, TailwindCSS, Node.js, and Express.js, I focus on creating seamless, user-friendly interfaces and efficient back-end solutions.</p>
         </div>
       </div>
