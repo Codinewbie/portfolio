@@ -1,5 +1,7 @@
 import React from 'react';
 import 'boxicons/css/boxicons.min.css';
+import about from '/src/images/about.webp';
+
 
 const About = () => {
   return (
@@ -10,8 +12,8 @@ const About = () => {
         <div className="col-span-12 md:col-span-5 rounded-lg">
           <img
           className="w-full md:h-full md:object-cover md:object-center rounded-xl"
-            src="src/images/about.webp"
-            alt="A dedicated Front-end Developer from Sylhet Bangladesh"
+            src={about}
+            alt="A dedicated Full-Stack Developer from Punjab, India"
           />
         </div>
         {/* <!-- about text content --> */}

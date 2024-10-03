@@ -1,7 +1,9 @@
 import React from 'react';
 import 'boxicons/css/boxicons.min.css';
 import 'devicon/devicon.min.css';
-
+import Project1 from "/src/images/Project1.png";
+import Project2 from "/src/images/Project2.png";
+import Project3 from "/src/images/Project3.png";
 const Portfolio = () => {
   return (
  
@@ -20,7 +22,7 @@ const Portfolio = () => {
           {/*Project1*/}
           <div className="flex flex-col md:flex-row md:odd:flex-row-reverse items-stretch gap-5 p-2.5 md:p-5 border border-neutral-200 rounded-xl shadow-sm bg-white">
             <div className="w-full md:w-1/2 overflow-hidden rounded-lg">
-              <img src="/portfolio/src/images/Project2.png" alt="Blogging Website" className="w-full h-full" />
+              <img src={Project2} alt="Blogging Website" className="w-full h-full" />
             </div>
             <div className="flex-1 flex flex-col">
               <div className="flex items-center flex-wrap gap-1 text-xs uppercase mb-5">
@@ -58,7 +60,7 @@ const Portfolio = () => {
            {/* Project2*/}
            <div className="flex flex-col md:flex-row md:odd:flex-row-reverse items-stretch gap-5 p-2.5 md:p-5 border border-neutral-200 rounded-xl shadow-sm bg-white">
             <div className="w-full md:w-1/2 overflow-hidden rounded-lg">
-              <img src="/portfolio/src/images/Project3.png" alt="Sorting-Visualizer" className="w-full h-full" />
+              <img src={Project3} alt="Sorting-Visualizer" className="w-full h-full" />
             </div>
             <div className="flex-1 flex flex-col">
               <div className="flex items-center flex-wrap gap-1 text-xs uppercase mb-5">
@@ -92,7 +94,7 @@ const Portfolio = () => {
           {/* Project3*/}
           <div className="flex flex-col md:flex-row md:odd:flex-row-reverse items-stretch gap-5 p-2.5 md:p-5 border border-neutral-200 rounded-xl shadow-sm bg-white">
             <div className="w-full md:w-1/2 overflow-hidden rounded-lg">
-              <img src="/portfolio/src/images/Project1.png" alt="NITJ-Website Clone" className="w-full h-full" />
+              <img src={Project1} alt="NITJ-Website Clone" className="w-full h-full" />
             </div>
             <div className="flex-1 flex flex-col">
               <div className="flex items-center flex-wrap gap-1 text-xs uppercase mb-5">

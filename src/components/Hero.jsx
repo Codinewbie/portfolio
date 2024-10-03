@@ -1,6 +1,6 @@
 import React from 'react';
 import 'boxicons/css/boxicons.min.css';
-
+import aman from "/src/images/aman.jpg";
 const Hero = () => {
   return (
     <>
@@ -39,7 +39,7 @@ const Hero = () => {
         <div className="w-[200px] md:w-[250px] rounded-lg">
           <img
             className ="rounded-lg"
-            src="/portfolio/src/images/aman.jpg"
+            src={aman}
             alt="Aman profile pic"
           />
         </div>
