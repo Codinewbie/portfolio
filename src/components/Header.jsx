@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-scroll';
 import 'boxicons/css/boxicons.min.css';
 
 
@@ -12,7 +12,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="sticky top-0 bg-white border-b border-b-neutral-200 z-[1000]">
+    <nav className="sticky mx-2 top-0 bg-white border-b border-b-neutral-200 z-[1000] ">
       <div className="flex items-center justify-between py-2 md:py-4">
         <a href="/" className="text-xl font-bold uppercase z-[1]">Aman.Dev</a>
         <button
@@ -31,26 +31,38 @@ const Header = () => {
         >
         
         <ul className="flex flex-col md:flex-row md:items-center space-y-6 md:space-y-0 md:space-x-8 py-6 md:py-0 w-full text-center">
-        <li className="font-semibold">
-            <a title="Home" href="/#home" className ="duration-300 hover:text-blue-600">
+        <li className="font-semibold top-full translate-y-0">
+          <Link to = "Home" smooth = {true} duration={500} className ="duration-300 hover:text-blue-600 cursor-pointer">
+            Home
+          </Link>
+            {/* <a title="Home" href="/#home" className ="duration-300 hover:text-blue-600">
               Home
-            </a>
+            </a> */}
           </li>
         
-          <li className="font-semibold">
-            <a title="About" href="/#about" className ="duration-300 hover:text-blue-600">
+          <li className="font-semibold top-full translate-y-0">
+            {/* <a title="About" href="/#about" className ="duration-300 hover:text-blue-600">
               About
-            </a>
+            </a> */}
+            <Link to = "About" smooth = {true} duration={500} className ="duration-300 hover:text-blue-600 cursor-pointer">
+            About
+          </Link>
           </li>
-          <li className="font-semibold">
-            <a title="Projects" href="/#portfolio" className ="duration-300 hover:text-blue-600">
+          <li className="font-semibold top-full translate-y-0">
+            {/* <a title="Projects" href="/#portfolio" className ="duration-300 hover:text-blue-600">
               Projects
-            </a>
+            </a> */}
+            <Link to = "Projects" smooth = {true} duration={500} className ="duration-300 hover:text-blue-600 cursor-pointer">
+            Projects
+          </Link>
           </li>
-          <li className="font-semibold">
-            <a title="Contact" href="/#contact" className ="duration-300 hover:text-blue-600">
+          <li className="font-semibold top-full translate-y-0">
+            {/* <a title="Contact" href="/#contact" className ="duration-300 hover:text-blue-600">
               Contact
-            </a>
+            </a> */}
+            <Link to = "Contact" smooth = {true} duration={500} className ="duration-300 hover:text-blue-600 cursor-pointer">
+            Contact
+          </Link>
           </li>
         </ul>
         </div>

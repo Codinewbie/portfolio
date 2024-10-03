@@ -8,16 +8,20 @@ import Footer from './components/Footer';
 import Portfolio from './components/project';
 function App() {
   return (
+    <div className="">
+      <Header />
     <div className="flex justify-center">
     <div className = "max-w-3xl">
-      <Header />
+      
       <Hero />
       <TechStack/>
       <About />
       <Portfolio />
       <Contact />
-      <Footer />
+      
     </div>
+    </div>
+    <Footer />
     </div>
   );
 }

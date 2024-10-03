@@ -4,7 +4,7 @@ import aman from "/src/images/aman.jpg";
 const Hero = () => {
   return (
     <>
-    <header id="home" className="scroll-mt-10">
+    <header id="Home" className="">
       <div className="py-16 flex flex-col-reverse gap-10 text-center md:text-left md:flex-row items-center md:justify-between">
         <div className="">
           <h2 className="text-3xl md:text-5xl font-black mb-5 leading-tight">Full-Stack Sowtware Developer 👋</h2>

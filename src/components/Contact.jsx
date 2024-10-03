@@ -4,17 +4,16 @@ import 'boxicons/css/boxicons.min.css';
 const Contact = () => {
   return (
  
-    // <!-- contact section start -->
-    <div id="contact" className="contact bg-white">
+    <div id="Contact" className="contact bg-white ">
       <div className="container py-[70px] md:py-[100px]">
         <h3 className="text-lg uppercase font-extrabold text-blue-600 mb-1">Don't be shy! Hit me up! 👇</h3>
         <h2 className="text-2xl font-bold mb-5">CONTACT</h2>
 
         {/* // <!-- contact cards --> */}
         <div className="flex flex-col md:flex-row md:items-center gap-10 mt-16">
-          {/* <% contacts.forEach((contact) => { %> */}
+          {/*card1*/}
           <div className="flex items-center gap-2 md:gap-3">
-            <div className="w-[45px] h-[45px] md:w-[60px] md:h-[60px] rounded-full duration-300 bg-white hover:bg-neutral-50 border border-neutral-200 inline-flex items-center justify-center text-blue-600">
+            <div className="w-[45px] h-[45px] md:w-[60px] md:h-[60px] rounded-full duration-300 bg-white hover:bg-gray-100 border border-neutral-200 inline-flex items-center justify-center text-blue-600">
               <i className="bx bx-at text-3xl md:text-4xl"></i>
             </div>
             <div className="flex flex-col gap-0 md:gap-1">
@@ -29,11 +28,10 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          {/* <% }); %> */}
 
-          {/* <% contacts.forEach((contact) => { %> */}
+ {/* card2 */}
           <div className="flex items-center gap-2 md:gap-3">
-            <div className="w-[45px] h-[45px] md:w-[60px] md:h-[60px] rounded-full duration-300 bg-white hover:bg-neutral-50 border border-neutral-200 inline-flex items-center justify-center text-blue-600">
+            <div className="w-[45px] h-[45px] md:w-[60px] md:h-[60px] rounded-full duration-300 bg-white hover:bg-gray-100 border border-neutral-200 inline-flex items-center justify-center text-blue-600">
               <i className="<bx bxl-whatsapp text-3xl md:text-4xl"></i>
             </div>
             <div className="flex flex-col gap-0 md:gap-1">
@@ -53,7 +51,6 @@ const Contact = () => {
         </div>
       </div>
     </div>
-    // <!-- contact section end -->
 
   );
 };
