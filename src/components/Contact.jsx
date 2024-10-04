@@ -4,7 +4,7 @@ import 'boxicons/css/boxicons.min.css';
 const Contact = () => {
   return (
  
-    <div id="Contact" className="contact bg-white ">
+    <div id="Contact" className="contact px-2 bg-white ">
       <div className="container py-[70px] md:py-[100px]">
         <h3 className="text-lg uppercase font-extrabold text-blue-600 mb-1">Don't be shy! Hit me up! 👇</h3>
         <h2 className="text-2xl font-bold mb-5">CONTACT</h2>

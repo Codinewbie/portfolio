@@ -5,7 +5,7 @@ const TechStack = () => {
   return (
  
     <div className="">
-      <div className="flex flex-col md:flex-row text-center md:text-left items-center gap-2 md:gap-10 py-10">
+      <div className="flex flex-col px-2 md:flex-row text-center md:text-left items-center gap-2 md:gap-10 py-10">
         <h2 className="font-bold text-lg">Tech Stack</h2>
         <div className="w-[100px] h-0.5 md:h-[20px] md:w-0.5 bg-neutral-800 mb-5 md:mb-0"></div>
         <div className="flex flex-wrap justify-center md:justify-start items-center gap-4">

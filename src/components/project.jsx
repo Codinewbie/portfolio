@@ -9,7 +9,7 @@ const Portfolio = () => {
  
     // <!-- portfolio section start -->
     <div id="Projects" >
-      <div className="py-[70px] md:py-[100px] ">
+      <div className="px-2 py-[70px] md:py-[100px] ">
         <h3 className="text-lg uppercase font-extrabold text-blue-600 mb-1">
         PORTFOLIO
         </h3>
