@@ -1,13 +1,13 @@
 import React from 'react';
 import 'boxicons/css/boxicons.min.css';
-import aman from "/src/images/aman.jpg";
+import aman2 from "/src/images/aman2.jpg";
 const Hero = () => {
   return (
     <>
     <header id="Home" className="">
       <div className="py-16 flex flex-col-reverse gap-10 text-center md:text-left md:flex-row items-center md:justify-between">
         <div className="">
-          <h2 className="text-3xl md:text-5xl font-black mb-5 leading-tight">Full-Stack Software Developer 👋</h2>
+          <h2 className="text-3xl md:text-5xl font-black mb-5 leading-tight">Full-Stack Software Developer</h2>
           <p className="mb-5">Hi, I’m Aman Kumar, a passionate Full-Stack Software Developer based in India</p>
           <div className="flex items-center justify-center md:justify-start text-4xl gap-4">
           
@@ -38,8 +38,8 @@ const Hero = () => {
     
         <div className="w-[200px] md:w-[250px] rounded-lg">
           <img
-            className ="rounded-lg"
-            src={aman}
+            className ="rounded-lg grayscale "
+            src={aman2}
             alt="Aman profile pic"
           />
         </div>
