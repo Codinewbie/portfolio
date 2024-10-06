@@ -35,9 +35,10 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/Codinewbie/portfolio.git
 2. Navigate to the project directory:
+   ```bash
    cd portfolio
-3. Install the dependencies:
+4. Install the dependencies:
    npm install
-4. Start the development server:
+5. Start the development server:
    npm run dev
-5. Open your browser and go to http://localhost:5173.
+6. Open your browser and go to http://localhost:5173.
