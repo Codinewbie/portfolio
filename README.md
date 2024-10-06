@@ -38,7 +38,9 @@ To run this project locally, follow these steps:
    ```bash
    cd portfolio
 4. Install the dependencies:
+   ```bash
    npm install
-5. Start the development server:
+6. Start the development server:
+   ```bash
    npm run dev
-6. Open your browser and go to http://localhost:5173.
+8. Open your browser and go to http://localhost:5173.
