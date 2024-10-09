@@ -11,15 +11,15 @@ function App() {
     <div className="">
       <Header />
     <div className="flex justify-center">
-    <div className = "max-w-3xl md:max-w-4xl">
-      
-      <Hero />
-      <TechStack/>
-      <About />
-      <Portfolio />
-      <Contact />
-      
-    </div>
+      <div className = "max-w-3xl">
+
+        <Hero />
+        <TechStack/>
+        <About />
+        <Portfolio />
+        <Contact />
+        
+      </div>
     </div>
     <Footer />
     </div>
