@@ -11,7 +11,7 @@ function App() {
     <div className="">
       <Header />
     <div className="flex justify-center">
-    <div className = "max-w-3xl">
+    <div className = "max-w-4xl">
       
       <Hero />
       <TechStack/>

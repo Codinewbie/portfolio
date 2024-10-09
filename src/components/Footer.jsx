@@ -4,16 +4,16 @@ const Footer = () => {
   return (
     
     // <!-- footer section start -->
-    <div className = "bg-neutral-800 flex justify-center ">
-    <footer class="max-w-3xl text-white">
-      <div class="py-16 mr-9 gap-14 md:space-x-24 flex justify-between  flex flex-col md:flex-row  text-center md:text-left items-center ">
+    <div className = "bg-neutral-800 flex justify-center">
+      <div className = "max-w-4xl text-white py-16 flex justify-between w-full gap-14  items-center  flex-col md:flex-row  px-5 md:px-10 ">
+   
         <div>
-        <p class=" md:text-lg font-bold">
+        <p className="md:text-lg font-bold">
           Copyright © {new Date().getFullYear()}. All rights are reserved
         </p>
         </div>
 
-        <div class="flex items-center gap-5 text-4xl">
+        <div className="flex items-center gap-5 text-4xl">
           {/* <% socials.forEach((item) => { %> */}
           
           <a
@@ -40,8 +40,8 @@ const Footer = () => {
 
           {/* // <% }); %> */}
         </div>
-      </div>
-    </footer>
+     
+    </div>
     </div>
   );
 };

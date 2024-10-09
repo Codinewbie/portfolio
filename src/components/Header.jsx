@@ -12,7 +12,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="sticky mx-2 top-0 bg-white border-b border-b-neutral-200 z-[1000] ">
+    <nav className="sticky mx-4 top-0 bg-white border-b border-b-neutral-200 z-[1000] ">
       <div className="flex items-center justify-between py-2 md:py-4">
         <a href="/" className="text-xl font-bold uppercase z-[1]">Aman.Dev</a>
         <button
@@ -46,6 +46,9 @@ const Header = () => {
           </Link>
           </li>
           <li className="font-semibold top-full translate-y-0">
+            {/* <a title="Contact" href="/#contact" className ="duration-300 hover:text-blue-600">
+              Contact
+            </a> */}
             <Link to = "Contact" smooth = {true} duration={500} className ="duration-300 hover:text-blue-600 cursor-pointer">
             Contact
           </Link>
