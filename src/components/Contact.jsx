@@ -9,7 +9,7 @@ const Contact = () => {
         <h3 className="text-lg uppercase font-extrabold text-blue-600 mb-1">Don't be shy! Hit me up! 👇</h3>
         <h2 className="text-2xl font-bold mb-5">CONTACT</h2>
 
-        {/* // <!-- contact cards --> */}
+        {/*contact cards */}
         <div className="flex flex-cols  md:items-center gap-14 mt-16">
             
           {/*card1*/}

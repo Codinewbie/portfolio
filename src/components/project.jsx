@@ -7,7 +7,7 @@ import Project3_12 from "/src/images/Project3_12.png";
 const Portfolio = () => {
   return (
  
-    // <!-- portfolio section start -->
+    
     <div id="Projects" >
       <div className="px-5 md:px-10 py-[70px] md:py-[100px] ">
         <h3 className="text-lg uppercase font-extrabold text-blue-600 mb-1">
@@ -15,7 +15,7 @@ const Portfolio = () => {
         </h3>
         <h2 className="text-2xl font-bold mb-16">Each project is a unique piece of development</h2>
 
-        {/* <!-- portfolio cards--> */}
+    
         <div className="flex flex-col gap-5">
 
 
@@ -26,14 +26,12 @@ const Portfolio = () => {
             </div>
             <div className="flex-1 flex flex-col">
               <div className="flex items-center flex-wrap gap-1 text-xs uppercase mb-5">
-                {/* <% project.tags.forEach((tag) => { %> */}
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#TypeScript</span>
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#Reactjs</span>
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#PostgresSQL</span>
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#TailwindCSS</span>
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#JWT</span>
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#Postman</span>
-                {/* <% }); %> */}
               </div>
               <h2 className="text-xl font-bold mb-2">Blogging Website</h2>
               <p className="mb-5">A place to read, write, and deepen your understanding. Start reading. On Medium, anyone can
@@ -64,12 +62,9 @@ const Portfolio = () => {
             </div>
             <div className="flex-1 flex flex-col">
               <div className="flex items-center flex-wrap gap-1 text-xs uppercase mb-5">
-                {/* <% project.tags.forEach((tag) => { %> */}
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#Reactjs</span>
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#TypeScript</span>
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#TailwindCSS</span>
-                
-                {/* <% }); %> */}
               </div>
               <h2 className="text-xl font-bold mb-2">Sorting-Visualizer</h2>
               <p className="mb-5">The Sorting Visualizer project is an interactive web application designed to visually demonstrate various sorting algorithms in action. By animating the sorting process step by step, users can gain a deeper understanding of how different algorithms work and compare their performance in real-time.</p>
@@ -98,11 +93,8 @@ const Portfolio = () => {
             </div>
             <div className="flex-1 flex flex-col">
               <div className="flex items-center flex-wrap gap-1 text-xs uppercase mb-5">
-                {/* <% project.tags.forEach((tag) => { %> */}
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#HTML</span>
                 <span className="px-2 py-1 border border-neutral-200 inline-block rounded-sm">#CSS</span>
-                
-                {/* <% }); %> */}
               </div>
               <h2 className="text-xl font-bold mb-2">NITJ-Website</h2>
               <p className="mb-5">The NITJ website clone is a web application developed using HTML and CSS, replicating the official National Institute of Technology Jalandhar (NITJ) website. This project demonstrates attention to detail in recreating the website's design and structure, showcasing my skills in frontend web development and responsive design.</p>
@@ -123,11 +115,9 @@ const Portfolio = () => {
             </div>
           </div>
           {/* project3 ends */}
-        {/* //   <% }); %> */}
         </div>
       </div>
     </div>
-    // <!-- portfolio section end -->
 
   );
 };
