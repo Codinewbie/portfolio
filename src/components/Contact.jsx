@@ -10,7 +10,7 @@ const Contact = () => {
         <h2 className="text-2xl font-bold mb-5">CONTACT</h2>
 
         {/*contact cards */}
-        <div className="flex flex-col md:items-center gap-14 mt-16">
+        <div className="flex flex-col  gap-14 mt-16">
             
           {/*card1*/}
           <div className="flex items-center gap-2 md:gap-3">
