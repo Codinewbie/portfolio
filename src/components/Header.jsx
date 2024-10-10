@@ -7,7 +7,7 @@ const Header = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  
+  // Function to toggle the menu
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };

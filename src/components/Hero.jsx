@@ -7,7 +7,7 @@ const Hero = () => {
     <>
     <header id="Home" className="">
       <div className="py-16 flex flex-col-reverse gap-10 text-center md:text-left md:flex-row items-center md:justify-between">
-        <div className="px-7">
+        <div >
           <h2 className="text-3xl font-extrabold md:text-5xl font-black mb-5 leading-tight">Full-Stack Software Developer</h2>
           <p className="mb-5">Hi, I’m Aman Kumar, a passionate Full-Stack Software Developer based in India</p>
           <div className="flex items-center justify-center md:justify-start text-4xl gap-4">
@@ -35,7 +35,7 @@ const Hero = () => {
             </a>
             <a
               href={resume}
-              download = "Aman_Kumar_Resume.pdf"
+              // download = "Aman_Kumar_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer" 
               className="duration-300 px-4 py-2 text-sm uppercase border border-neutral-200 rounded font-bold border-blue-500 bg-neutral-700 hover:bg-neutral-800 rounded text-white"

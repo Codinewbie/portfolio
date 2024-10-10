@@ -6,20 +6,19 @@ import TechStack from './components/Techstack';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Portfolio from './components/project';
+import './App.css'
 function App() {
   return (
-    <div className="">
+    <div className="flex flex-col">
       <Header />
-    <div className="flex justify-center">
-      <div className = "max-w-4xl">
-
+    <div className="flex flex-col w-full px-7">
+      {/* <div className='max-w-4xl '> */}
         <Hero />
         <TechStack/>
         <About />
         <Portfolio />
         <Contact />
-        
-      </div>
+      {/* </div> */}
     </div>
     <Footer />
     </div>
