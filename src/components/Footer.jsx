@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     
     
-    <div className = "bg-neutral-800 flex justify-center">
-      <div className = "max-w-4xl text-white py-16 flex justify-between w-full gap-14  items-center  flex-col md:flex-row  px-7 md:px-10 ">
+    <div className = "bg-neutral-800 flex justify-center px-7 ">
+      <div className = "max-w-4xl text-white py-16 flex justify-between w-full gap-14  items-center  flex-col md:flex-row ">
    
         <div>
         <p className="md:text-lg font-bold">
