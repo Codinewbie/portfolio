@@ -14,7 +14,9 @@ const Header = () => {
   return (
     <nav className="sticky mx-4 top-0 bg-white border-b border-b-neutral-200 z-[1000] ">
       <div className="flex items-center justify-between py-2 md:py-4">
-        <a className="text-xl font-bold uppercase z-[1]">Aman.Dev</a>
+      <Link to = "Home" smooth = {true} duration={500} className ="duration-300 text-xl font-bold uppercase z-[1] hover:text-blue-600 cursor-pointer">
+            Aman.Dev
+          </Link>
         <button
           title="Open Menu"
           type="button"
