@@ -6,6 +6,7 @@ import Nitj from "/src/images/Nitj.png";
 import Blog from "/src/images/Blog.png";
 import Sort from "/src/images/Sort.png";
 import Whatbytes from "/src/images/Whatbytes.png";
+import trello from "/src/images/trello.png";
 
 const projectData = [
   {
@@ -30,6 +31,17 @@ const projectData = [
   },
   {
     id: 3,
+    image: trello,
+    alt: "Trello-like-Taskboard",
+    title: "Trello-Like-Taskboard",
+    description: "The Trello-Like Task Board is a dynamic and interactive project management tool built using React.js, Tailwind CSS, and JavaScript. This application enables users to efficiently organize tasks through an intuitive drag-and-drop interface.",
+    techStack: ["#ReactJS", "#JavaScript", "#TailwindCSS"],
+    sourceUrl: "https://github.com/Codinewbie/trello-like-board",
+    previewUrl: "https://trello-like-board-seven.vercel.app/"
+    
+  },
+  {
+    id: 4,
     image: Sort,
     alt: "Sorting-Visualizer",
     title: "Sorting-Visualizer",
@@ -39,7 +51,7 @@ const projectData = [
     previewUrl: "https://codinewbie.github.io/sorting-visualizer/"
   },
   {
-    id: 4,
+    id: 5,
     image: Whatbytes,
     alt: "WhatBytes Homepage",
     title: "WhatBytes Homepage",
@@ -49,7 +61,7 @@ const projectData = [
     previewUrl: "https://whatbytes-ten.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
     image: Nitj,
     alt: "NITJ-Website Clone",
     title: "NITJ-Website",
@@ -57,7 +69,8 @@ const projectData = [
     techStack: ["#HTML", "#CSS"],
     sourceUrl: "https://github.com/Codinewbie/NITJ-official-website-clone",
     previewUrl: "https://codinewbie.github.io/NITJ-official-website-clone/"
-  }
+  },
+  
 ];
 
 const Portfolio = () => {
@@ -95,7 +108,7 @@ const Portfolio = () => {
       <h3 className="text-lg uppercase font-extrabold text-blue-600 mb-1">PORTFOLIO</h3>
       <h2 className="text-2xl font-bold mb-16">Each project is a unique piece of development</h2>
 
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-4">
         {projectData.slice(0, 4).map(renderProject)}
 
         <div className={`transition-all duration-700 ${showMore ? 'opacity-100' : 'opacity-0'}`}>
