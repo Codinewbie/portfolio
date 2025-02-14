@@ -53,6 +53,17 @@ const projectData = [
   {
     id: 5,
     image: Whatbytes,
+    alt: "Shoshin Tech",
+    title: "Shoshin Tech - Assignment",
+    description: "The Shoshin Tech Dashboard is a sleek and responsive web application designed to provide a seamless user experience. Built with React.js, Tailwind CSS, and JavaScript, this dashboard offers an intuitive interface for managing and navigating key functionalities efficiently.",
+    techStack: ["#ReactJS", "#JavaScript", "#TailwindCSS"],
+    sourceUrl: "https://github.com/Codinewbie/whatbytes",
+    previewUrl: "https://whatbytes-ten.vercel.app/"
+    
+  },
+  {
+    id: 6,
+    image: Whatbytes,
     alt: "WhatBytes Homepage",
     title: "WhatBytes Homepage",
     description: "The WhatBytes Homepage is a responsive web application built with Next.js, React.js, and Tailwind CSS. It features dynamic tab navigation, a collapsible sidebar, and a toggleable menu optimized for mobile devices, providing an engaging and user-friendly interface.",
@@ -61,7 +72,7 @@ const projectData = [
     previewUrl: "https://whatbytes-ten.vercel.app/"
   },
   {
-    id: 6,
+    id: 7,
     image: Nitj,
     alt: "NITJ-Website Clone",
     title: "NITJ-Website",
